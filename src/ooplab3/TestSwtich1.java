@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TestSwtich1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);13
+        Scanner scanner = new Scanner(System.in);
 
 //        switch-case
         int select;
