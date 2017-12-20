@@ -21,9 +21,11 @@ public class sortingArray {
 
     private static void sortingDataDesending(int[] number) {
         System.out.print("Desending order: ");
-        Integer[] num {1, 8, 6, 3};
-        Arrays.sort(number, Collections.reverseOrder());
-        showData(number,number.length);
+        Integer[] num =new Integer[number.length];
+        int i = 0;
+        for (int val : number){
+            num[i++] = val;
+        }
     }//sortingDataDesending
 
     private static void sortingDataAscending(int[] number) {
