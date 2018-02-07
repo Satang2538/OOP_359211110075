@@ -1,14 +1,16 @@
 package opplab8;
 
 public abstract class Pet {
+    String msg="Hello";
     private String name;
     private int age;
+
     public  Pet (String name, int age){
         this.name = name;
         this.age = age;
 
     }
-    public  abstract void makeNoise();
+    protected abstract void makeNoise();
 
     public String getName() {
         return name;
