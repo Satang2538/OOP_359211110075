@@ -14,7 +14,7 @@ public class PetApp {
         System.out.println(cow.toString());
         cow.makeNoise();
         System.out.println(cow.toString());
-        cow.makeNoise();
+        cow.makeNoise ();
         //System.out.println(cow.msg);
     }
 }
